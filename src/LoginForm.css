@@ -1,0 +1,32 @@
+.login-form {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #432a50;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Set height to 100% of viewport height */
+}
+
+.login-title {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increase margin between form groups */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
